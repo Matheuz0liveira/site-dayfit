@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 25px 0;                                      /* distancia entre o conteudo e suas bordas */
+    background-color: #35c078ab;                        /* cor do fundo*/
+    color: #ffffff;                                     /* cor da letra */
+}
+
+header,
+section h2,
+section h3,
+form button {                                               /*Fonte do cabeçalho*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Solway', serif;
+}
+section p,
+body,
+input,
+textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Solway', serif;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header nav li {                                       /*Alinhamento da lista do menu*/
+    display: inline;
+    margin-left:16px;
+    font-size: 25px;
+}
+
+header nav li a {                                    /* Layout e caracteristicas da lista do menu*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {                                       /* Ajuste .container layout*/
+    max-width: 1280px;
+    width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container { /* Layout da section */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*------------------------------------------------Cabeçalho---------------------------*/
+
+.gurias {
+    margin-right: 34px;
+    height: 500px;
+}
+
+.icon-list img {
+    height: 40px;
+}
+
+.icon-list li {      /* Lista de icones */
+    display: inline;
+    margin-right: 25px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 35px 0;
+}
+section h2 {
+    margin-bottom: 16px;
+    color: #35c078ab;
+    font-size: 26px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+/*---------------------------Section About--------------------------------------*/
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 110px;
+}
+section h3 {
+    color: #35c078ab;
+    margin-bottom: 16px;
+    font-size: 19px;
+}
+form button {
+    background-color: #35c078ab;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #35c07895;
+}
+
+input:focus, textarea:focus {
+    outline-color:#136636;
+}
+
+/*------------------Contato---------------------------------*/
+
+.social-links li a {
+    text-decoration: none;
+}
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links img {
+    height: 29px;
+}
+footer {
+    background-color:#35c07895;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
